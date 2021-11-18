@@ -1,0 +1,29 @@
+@use 'custom';
+
+@use './component/buttons';
+@use './component/animations';
+@use './component/mixen';
+@use './component/typography';
+
+@use './sections/companies';
+@use './sections/getstarted';
+@use './sections/intro';
+@use './sections/navbar';
+@use './sections/testomines';
+@use './sections/footer';
+@use './sections/services';
+
+*{
+    padding:0;
+    margin:0;
+}
+.logo{
+    
+    max-width: 60px;
+    margin-top: 0;
+}
+.gradient{
+    background: linear-gradient(to bottom,rgba(white,1),rgba(lightgrey,.9));
+
+}
+
